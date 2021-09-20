@@ -57,6 +57,9 @@ print('Hasil akhir dari OR adalah :', hasilAkhir)
 hasilAkhir = isLogic ^ isLogic1
 print('Hasil akhir dari XOR adalah :', hasilAkhir)
 
+# lihat type data
+print('Type data nya adalah =', type(hasil))
+
 
 
 
