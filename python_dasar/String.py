@@ -57,10 +57,10 @@ print("String terkecil adalah = ", min(fullName))
 print("String terbesar adalah = ", max(fullName))
 
 # Ascii code string
-ascii_code = ord("d")
+ascii_code = ord("y")
 print("ASCII code nya adalah = " + str(ascii_code))
 
-x = 111
+x = 117
 print("String nya adalah = " + chr(x))
 
 # Operator menghitung jumlah cahracter 
