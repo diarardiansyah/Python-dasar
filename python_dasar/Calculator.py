@@ -23,7 +23,7 @@ elif inputAngka == 4:
     hasil = angka1 / angka2
 
 # Cetak hasil dari perhitungan diatas
-print('Hasil dari perhitungan diatas adalah = ', hasil)
+print(f"Hasilnya adalah = {hasil}")
 
 # Masukan pilihan operasi perhitungan
 inputAngka = float(input('Masukan pilihan operasi perhitungan : '))

@@ -40,7 +40,7 @@ print(format_pls)
 print(format_mns)
 
 # Format angka persen
-prsn = 1.921
+prsn = 202.01
 format_prsn = f"Ängka persen = {prsn:.2%}"
 print(format_prsn)
 
