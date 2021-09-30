@@ -2,7 +2,7 @@
 
 # Masukan inputan user
 nama = "diar ardiansyah"
-nilai = float(input("Masukan nilai anda ? "))
+nilai = float(input("Masukan nilai anda = "))
 
 if nilai==100:
     print("Kamu mendapatkan grade A+ ya " + nama)
