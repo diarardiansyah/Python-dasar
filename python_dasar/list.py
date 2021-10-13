@@ -26,21 +26,24 @@ x[3] = 22
 angka[4:7] = [69,8,17]
 #print(angka)
 
+# list ke tiga 
+nmbr = [0,3,6,4,11,22,23,44]
+
 # list dalam list
-y = [angka,angk]
+y = [angka,angk,nmbr]
 print(y)
 
 # akses list dua dimensi
-h = y[0][5]
-#print(h)
+h = y[2][5]
+print(f"hasilnya adalah = {h}")
 
 # menambahkan list dengan method
 angka.append(71)
-print(angka)
+#print(angka)
 
 # Menghitung panjang list
 panjangList = len(angka)
-print(f"Panjang listnya adalah {panjangList}")
+#print(f"Panjang listnya adalah {panjangList}")
 
 # delete data list
 delete = angka.pop(10)
