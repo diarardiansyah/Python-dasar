@@ -11,3 +11,5 @@ if tanya == "iya":
     print(f"ahhh {nama} kamu so sweet banget siiiiii")
 elif tanya == "enggak":
     print(f"ihhh {nama} kamu jahat banget sihhh")
+else:
+    print(f"Udah kita putussss")

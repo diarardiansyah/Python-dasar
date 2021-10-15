@@ -1,10 +1,6 @@
 # practice
 
-input1 = float(input("Weight : "))
-input2 = float(input("Height : "))
 
-result = input1 / (input2 * input2)
-print(result)
 
 '''
 if result < 18.5:
@@ -16,3 +12,10 @@ elif result >= 25 and result < 30:
 elif result > 30:
     print("Obesity")
 '''
+
+data = [12,110,9,8,99,121,44,55]
+
+hasil = max(data)
+hasil1 = min(data)
+print(f"nilai terbesar adalah {hasil}")
+print(f"nilai terendah adalah {hasil1}")
