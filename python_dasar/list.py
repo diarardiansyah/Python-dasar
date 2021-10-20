@@ -3,13 +3,13 @@
 angka = [1,4,5,21,90,100,88,12,10,11]
 
 #akses list 1
-number = angka[-4]
+number = angka[1:]
 print(f"angka nya adalah = {number}")
 
 #slicing list
 angka1 = angka[2:5]
 angka2 = angka[:5]
-
+print(angka2)
 #list kedua
 angk = [99,121,12,44,54,28,64]
 
