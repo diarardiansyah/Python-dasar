@@ -4,7 +4,7 @@ def perkalian(x,y):
     print(f'hasil dari perkalian dari {x} x {y} = {kali}')
     return kali 
 
-perkalian(10,5)
+perkalian(10,8)
 
 '''
 def pembagian(x, y):
