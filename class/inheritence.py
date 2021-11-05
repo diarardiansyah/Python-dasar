@@ -8,7 +8,7 @@ class Sayur():
     def sayuran(self):
         print('Nama sayur', self.nama, 'Warna sayur', self.warna, 'Dan berasal dari kota', self.asal)
 
-class sayurSayur(Sayur): # <- Class turunan
+class sayurSayur(Sayur): # <- Class turunan / class inheritence
     pass
 
     def yursa(self):
