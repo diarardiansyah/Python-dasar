@@ -2,7 +2,7 @@
 
 print("=====Aplikasi calculator zakat sederhana=====")
 
-# Ibput nama 
+# Ibput nama muzakki
 nama = input('Masukan nama anda : ')
 
 # Pertanyaan bekerja atau tidak
@@ -13,8 +13,9 @@ if tanya == "iya":
     hasil = 0.025 * penghasilan
 
 elif tanya == "tidak" :
-    print(f"Anda belum berhak membayar zakat") # menangkap inputan user penghasilan bulanan
+    print(f"Anda belum berhak membayar zakat") # Output jika user memasukan inputan belum bekerja 
 
 print("\n============================\n")
 
+# Output program jumlah zakat yang harus dikeluarkan
 print(f"Assalamualaikum saudara/saudari {nama} zakat yang harus anda keluarkan Rp. {hasil:,}")
