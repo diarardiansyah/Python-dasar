@@ -27,6 +27,8 @@ uangPembeli = int(input('Uang Pembeli : '))
 
 if uangPembeli == totalHarga:
     print('Uang anda pas tidak ada kembalian')
+elif uangPembeli < totalHarga:
+    print('Mohon maaf uang anda kurang')
 else:
     kembalian = uangPembeli - totalHarga
     print(f"Uang kembalian Rp. {kembalian:,}")
