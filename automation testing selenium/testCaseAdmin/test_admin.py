@@ -23,7 +23,7 @@ setPasword = driver.find_element_by_xpath('//*[@id="password-input"]')
 setPasword.send_keys('tokopedia789')
 
 # click button submit
-driver.find_element_by_xpath('//*[@id="zeus-root"]/div/div[3]/section/div[2]/form/button').click()
+driver.find_element_by_xpath('//button[@class="css-ow4jg3-unf-btn e1ggruw00"]').click()
 
 # click button add admin
 driver.implicitly_wait(4)
