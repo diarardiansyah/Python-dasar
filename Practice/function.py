@@ -6,10 +6,11 @@ def nama1():
 
 # fungsi untuk menghitung harga telur
 def telur(kg):
-    print("Perhitungan harga telus")
+    print("Perhitungan harga telur")
     hargaTelur = 12000
     totalHarga = kg*hargaTelur
-    print(f"harga {kg} kg adalah = {totalHarga}")
+    print(f"harga {kg} kg adalah = Rp.{totalHarga:,}")
+telur(2)
 
 # fungsi untuk menghitung nilai 
 def nilai():
@@ -22,5 +23,4 @@ def nilai():
         print(f"selamat {inputNama} kamu lulus ujian dengan nilai A")
     elif inputNilai < 85 and inputNilai >= 65:
         print(f"selamat {inputNama} kamu lulus ujian dengan nilai B")
-
 nilai()
