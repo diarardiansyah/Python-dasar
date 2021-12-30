@@ -2,6 +2,7 @@ from _pytest.monkeypatch import derive_importpath
 import py
 import pytest
 from selenium import webdriver
+import base64
 
 emailPass = [('pbs-diar+pmext.bronze4@tokopedia.com', 'tokopedia789')]
 
