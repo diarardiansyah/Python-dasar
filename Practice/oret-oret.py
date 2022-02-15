@@ -8,14 +8,14 @@ def tambah():
 
 tambah()
 '''
-a = 5
+a = 10
 
 for i in range(0, a):
     for x in range(0, i + 1):
         print('* ', end='')
     print('')
 
-b = 5
+b = 10
 
 for o in range(0, b):
     for p in range(0, b - 1):
