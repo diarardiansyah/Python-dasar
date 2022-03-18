@@ -6,4 +6,4 @@ def fibonacci(n):
     
     return fibonacci (n-1) + [n]
 
-print(fibonacci(6))
+print(fibonacci(10))
